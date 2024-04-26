@@ -1,6 +1,7 @@
-# projeto-pessoal
+# projeto-pessoal0
 Projeto pessoal sobre Inazuma Eleven;
 documentação sobre o projeto;
+trello;
 Criar modelagem e tabelas no mySQl ;
 criar tela de login e cadastro;
 criar home ;
