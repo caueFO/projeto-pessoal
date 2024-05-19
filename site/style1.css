@@ -3,7 +3,8 @@ padding: auto;
 margin: auto;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: #376FC0;
-background-image: url("imagens/zp-99298_Inazuma-Eleven-Ares_2016_07-27-16_001.jpg");
+background-attachment: fixed;
+
 }
 
 .container {
@@ -13,11 +14,13 @@ background-image: url("imagens/zp-99298_Inazuma-Eleven-Ares_2016_07-27-16_001.jp
 }
 
 .header{
+    
     background-color: rgba(251, 255, 3, 0);
     justify-content: space-between;
 }
 
 .header .container{
+   
 justify-content: space-between;
 margin:  1%;
 width: 100%;
@@ -86,6 +89,7 @@ align-items: center;
     margin-top: 59px;
     margin-bottom: 115px;
     border-radius: 10px;
+    justify-content: space-evenly;
 }
 .box span {
     font-size: 15px;

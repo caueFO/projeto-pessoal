@@ -6,27 +6,27 @@
     <link rel="stylesheet" href="style1.css">
     <title>Document</title>
 </head>
-<body>
+<body background="imagens/zp-99298_Inazuma-Eleven-Ares_2016_07-27-16_001.jpg">
 
     <div class="header">
         <div class="container">
              <img src="imagens/kisspng-inazuma-eleven-go-killua-zoldyck-emblem-logo-embraimon-2-inazuma-eleven-go-5b744e79076328.5285403015343489210303.png" alt="" width="100px" height="100px">
             <ul class="navbar">
                 <li>
-                    <a>Página Inicial</a>
+                    <a href="homepage.html">Página Inicial</a>
                 </li>
                 <li>
-                    <a>Mundo Inazuma</a>
+                    <a href="">Mundo Inazuma</a>
                 </li>
                 <li>
                     <a href="">Ranking</a>
                 </li>
-                <li> <a>|</a> </li>
+            
                 <li>
-                    <a>Login</a>
+                    <a href="login.html">Login</a>
                 </li>
                    <li>
-                       <a class="agora">Cadastro</a>
+                       <a href="cadastro.html" class="agora">Cadastro</a>
                     </li>
                 </ul>
             </div>
@@ -40,14 +40,12 @@
                 <span> Escolha seu personagem </span>
                 <select class="botao" name="selcionarEmpresa" id="id_empresa">
                     <option selected disabled>Selecionar um personagem</option>
-                    <option>Endou Mamoru</option>
-                    <option>Asuto Inamori</option>
-                    <option>Tenma Matsukaze <img src="imagens/kisspng-inazuma-eleven-go-killua-zoldyck-emblem-logo-embraimon-2-inazuma-eleven-go-5b744e79076328.5285403015343489210303.png" alt="" width="10px"></option>
-                </select>
+                   </select>
             </div>
             <div class="campo">
                 <span>Nome Completo:</span>
-                <input class="botao" type="text" id="input_nomecomp" placeholder="Nome completo aqui">
+                <input class="botao" type="text" id="input_nomecomp" placeholder="Nome completo aqui"><br>
+                <div id="div_mensagem1" class="campo1"></div>
             </div>
             <div class="campo">
                 <span>Nome de Usuário:</span>
@@ -65,7 +63,7 @@
                 <span>Confirme sua senha:</span>
                 <input class="botao" type="password" id="input_confsenha" placeholder="********">
             </div>
-            <button class="botao2">Cadastrar</button>
+            <button class="botao2" onclick="cadastrar()">Cadastrar</button>
         </div>
     </div>
     </div>
@@ -78,3 +76,30 @@
     
 </body>
 </html>
+<script>
+function cadastrar(){
+
+ var nomeCom = input_nomecomp.value;
+ var nomeUsu = input_nomeusua.value;
+ var email = input_email.value;
+ var senha = input_senha.value;
+ var confirSenha = input_confsenha.value;
+
+if (nomeComp = 1 ){
+    div_mensagem1.innerHTML = 'SEU MERDA'
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+</script>
